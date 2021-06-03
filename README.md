@@ -21,3 +21,5 @@ The application is intended to showcase a migration from a regular monolithic we
 
 ## Author
 * **Geanina Chiricuta**
+
+
