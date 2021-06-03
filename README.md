@@ -23,3 +23,5 @@ The application is intended to showcase a migration from a regular monolithic we
 * **Geanina Chiricuta**
 
 
+https://user-images.githubusercontent.com/35954631/120654538-79a01f80-c48a-11eb-92b7-e5e88427bb85.mp4
+
