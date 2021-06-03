@@ -6,7 +6,7 @@ Import the project into an IDE of your choosing, supporting Java applications, M
 The application communicates across services through REST and it's split up in four micro-services: 
 * budget-service, that can later on be expanded to handle more complex operations for budget management;
 * operation-service, where most of the back-end work is done, to handle expenses, requests and households;
-* user-service, handling authentication (basic, database authentication for this project, to later be enhanced using authentication providers in the cloud version of this application), as well as the information on different user types;
+* user-service, handling authentication (basic, database authentication for this project), as well as the information on different user types;
 * web-service - front-end service, mapping the REST requests.
 
 The application is intended to showcase a migration from a regular monolithic web based application to a micro-services one. See my repository BlocAdmin to check out the monolithic version.
