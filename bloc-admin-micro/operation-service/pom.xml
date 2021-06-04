@@ -6,6 +6,7 @@
 	<groupId>com.blocadminmicro</groupId>
 	<artifactId>operation-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	
 	<name>operation-service</name>
 	<description>Bloc Admin operations service.</description>
