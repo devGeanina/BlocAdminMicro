@@ -8,8 +8,8 @@
 	<artifactId>parent-pom</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
-	
-	<name>bloc-admin-micro</name>
+
+	<name>parent-project</name>
 	
 	<modules>
 		<module>user-service</module>
