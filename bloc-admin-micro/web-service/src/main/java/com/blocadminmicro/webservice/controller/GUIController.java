@@ -184,8 +184,6 @@ public class GUIController {
 				});
 		model.addAttribute("budgets", budgetsDTOs.getBody());
 		model.addAttribute("budget", new BudgetDTO());
-		// model.addAttribute("budgetSummary",
-		// homeService.createBudgetSummary(budgetsDTOs.getBody()));
 		return "viewBudgets";
 	}
 
@@ -259,8 +257,6 @@ public class GUIController {
 				});
 		model.addAttribute("houses", householdsDTOs.getBody());
 		model.addAttribute("expense", new ExpenseDTO());
-		// model.addAttribute("expenseSummary",
-		// homeService.creatExpenseSummary(expensesDTOs.getBody()));
 
 		return "viewExpenses";
 	}
@@ -337,8 +333,6 @@ public class GUIController {
 		model.addAttribute("houses", householdsDTOs.getBody());
 		model.addAttribute("requests", requestsDTOs.getBody());
 		model.addAttribute("request", new RequestDTO());
-		// model.addAttribute("requestSummary",
-		// homeService.createRequestSummary(requestsDTOs.getBody()));
 
 		return "viewRequests";
 	}
@@ -410,8 +404,6 @@ public class GUIController {
 				});
 		model.addAttribute("houses", housesDTOs.getBody());
 		model.addAttribute("household", new HouseholdDTO());
-		// model.addAttribute("houseSummary",
-		// homeService.createHouseholdSummary(housesDTOs.getBody()));
 
 		return "viewHouses";
 	}
