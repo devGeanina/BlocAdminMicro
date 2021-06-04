@@ -18,6 +18,7 @@ The application is intended to showcase a migration from a regular monolithic we
 * Thymeleaf - Java XML/XHTML/HTML5 template engine workable with web and non-web applications.
 * Log4j - logging application information.
 * Librepdf - free Java library for creating and editing PDF files, used to export PDF files.
+* FontAwesome - font and icon toolkit based on CSS.
 
 ## Author
 * **Geanina Chiricuta**
