@@ -1,8 +1,10 @@
 package com.blocadminmicro.webservice.dto;
 
-import lombok.Data;
 
-@Data
+import lombok.EqualsAndHashCode;
+
+
+@EqualsAndHashCode
 public class LoginDTO {
 
 	private Long id;
