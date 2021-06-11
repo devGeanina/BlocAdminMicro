@@ -1,10 +1,10 @@
 package com.blocadminmicro.webservice.dto;
 
 import com.blocadminmicro.webservice.utils.BudgetType;
+import lombok.EqualsAndHashCode;
 
-import lombok.Data;
 
-@Data
+@EqualsAndHashCode
 public class BudgetDTO {
 
 	private Long id;
@@ -13,6 +13,8 @@ public class BudgetDTO {
 	private double totalSum;
 	private double leftoverSum;
 	private String details;
+	
+	public BudgetDTO(){}
 
 	public Long getId() {
 		return id;
