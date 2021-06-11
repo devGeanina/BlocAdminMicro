@@ -5,7 +5,6 @@ import java.util.Date;
 import lombok.Builder;
 import lombok.Data;
 
-@Data
 @Builder
 public class RequestDTO implements Serializable {
 
@@ -19,6 +18,8 @@ public class RequestDTO implements Serializable {
 	private String details;
 	private boolean resolved;
 	private Date dueDate;
+	
+	public RequestDTO(){}
 
 	public Long getId() {
 		return id;
