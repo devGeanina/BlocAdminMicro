@@ -2,9 +2,7 @@ package com.blocadminmicro.budgetservice.dto;
 
 import java.io.Serializable;
 import lombok.Builder;
-import lombok.Data;
 
-@Data
 @Builder
 public class BudgetDTO implements Serializable{
     
