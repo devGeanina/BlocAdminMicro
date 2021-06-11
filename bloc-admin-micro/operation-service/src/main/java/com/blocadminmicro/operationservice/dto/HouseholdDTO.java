@@ -2,9 +2,7 @@ package com.blocadminmicro.operationservice.dto;
 
 import java.io.Serializable;
 import lombok.Builder;
-import lombok.Data;
 
-@Data
 @Builder
 public class HouseholdDTO implements Serializable {
 
@@ -19,6 +17,8 @@ public class HouseholdDTO implements Serializable {
 	private int totalCapacity;
 	private String ownerName;
 	private double totalDebt;
+	
+	public Household(){}
 
 	public Long getId() {
 		return id;
