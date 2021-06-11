@@ -2,9 +2,7 @@ package com.blocadminmicro.userservice.dto;
 
 
 import lombok.Builder;
-import lombok.Data;
 
-@Data
 @Builder
 public class UserDTO implements Comparable<UserDTO> {
         
@@ -17,6 +15,8 @@ public class UserDTO implements Comparable<UserDTO> {
     private String details;
     private int appartmentNr;
     private String username;
+	
+    public UserDTO(){}
 
     public Long getId() {
         return id;
