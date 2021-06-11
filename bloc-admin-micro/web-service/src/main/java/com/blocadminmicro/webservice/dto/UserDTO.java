@@ -1,9 +1,10 @@
 package com.blocadminmicro.webservice.dto;
 
 import com.blocadminmicro.webservice.utils.UserType;
-import lombok.Data;
+import lombok.EqualsAndHashCode;
 
-@Data
+
+@EqualsAndHashCode
 public class UserDTO {
 
 	private Long id;
