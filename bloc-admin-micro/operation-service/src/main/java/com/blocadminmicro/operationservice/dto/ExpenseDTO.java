@@ -5,9 +5,7 @@ import java.util.Date;
 import java.util.List;
 
 import lombok.Builder;
-import lombok.Data;
 
-@Data
 @Builder
 public class ExpenseDTO implements Serializable {
 
@@ -22,6 +20,8 @@ public class ExpenseDTO implements Serializable {
 	private Date dueDate;
 	private List<Long> householdIds;
 	private List<String> householdsAddresses;
+	
+	public ExpenseDTO(){}
 
 	public Long getId() {
 		return id;
