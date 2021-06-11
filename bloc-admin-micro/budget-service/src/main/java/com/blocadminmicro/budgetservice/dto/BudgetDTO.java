@@ -13,6 +13,8 @@ public class BudgetDTO implements Serializable{
     private double totalSum;
     private double leftoverSum;
     private String details;
+	
+    public BudgetDTO(){}
 
     public Long getId() {
         return id;
