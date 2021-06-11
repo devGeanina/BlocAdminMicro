@@ -1,4 +1,4 @@
-## BlocAdmin
+## BlocAdmin - Micro-services with Spring Boot, H2, Bootstrap
 Web application with a micro-services architecture that allows the administrator of any building complex to manage the information regarding the buildings, residents, resident requests, budgets and expenses, as well as keeping all the information in one place.
 
 ## Getting Started
