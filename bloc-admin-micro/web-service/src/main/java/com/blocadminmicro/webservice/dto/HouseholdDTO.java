@@ -2,7 +2,10 @@ package com.blocadminmicro.webservice.dto;
 
 import lombok.Data;
 
-@Data
+import lombok.EqualsAndHashCode;
+
+
+@EqualsAndHashCode
 public class HouseholdDTO {
 
 	private Long id;
@@ -15,6 +18,8 @@ public class HouseholdDTO {
 	private String ownerName;
 	private double totalDebt;
 	private String address;
+	
+	public HouseholdDTO(){}
 
 	public Long getId() {
 		return id;
