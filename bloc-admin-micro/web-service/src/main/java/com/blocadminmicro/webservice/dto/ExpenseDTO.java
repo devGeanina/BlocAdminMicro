@@ -9,9 +9,10 @@ import org.springframework.format.annotation.DateTimeFormat;
 import com.blocadminmicro.webservice.utils.ExpenseType;
 import com.blocadminmicro.webservice.utils.Utils;
 
-import lombok.Data;
+import lombok.EqualsAndHashCode;
 
-@Data
+
+@EqualsAndHashCode
 public class ExpenseDTO {
 
 	private Long id;
@@ -29,6 +30,8 @@ public class ExpenseDTO {
 	private List<String> householdsAddresses;
 	private String formattedDueDate;
 	private String expenseAddressesFormatted;
+	
+	public ExpenseDTO(){}
 
 	public Long getId() {
 		return id;
