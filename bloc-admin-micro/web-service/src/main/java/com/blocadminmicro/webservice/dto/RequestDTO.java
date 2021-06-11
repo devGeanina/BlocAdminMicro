@@ -6,10 +6,10 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import com.blocadminmicro.webservice.utils.HouseholdRequestType;
 import com.blocadminmicro.webservice.utils.Utils;
+import lombok.EqualsAndHashCode;
 
-import lombok.Data;
 
-@Data
+@EqualsAndHashCode
 public class RequestDTO {
 
 	private Long id;
@@ -25,6 +25,8 @@ public class RequestDTO {
 	private String formattedDueDate;
 	private String householdAddress;
 	private Long householdId;
+	
+	public RequestDTO(){}
 
 	public Long getId() {
 		return id;
